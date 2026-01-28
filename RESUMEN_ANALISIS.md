@@ -180,7 +180,7 @@ Se ha creado un **Business Requirements Document (BRD)** completo en inglés que
 3. **Business Objectives**: Objetivos y métricas de éxito
 4. **Stakeholders**: Todos los interesados internos y externos
 5. **Scope**: Alcance detallado (dentro y fuera del MVP)
-6. **Functional Requirements**: 40+ requerimientos funcionales organizados por:
+6. **Functional Requirements**: 26 requerimientos funcionales organizados por:
    - Front-End Module (Hermes 2.0): 11 requerimientos
    - Back-Office Module (Cronos): 9 requerimientos
    - Compliance & Security: 3 requerimientos
