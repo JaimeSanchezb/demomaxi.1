@@ -1,0 +1,1948 @@
+1
+00:00:02,960 --> 00:00:11,600
+Ajá, y sí, es súper importante esta parte que les que les menciono sobre que ya, o sea, ya el.
+
+2
+00:00:11,840 --> 00:00:19,040
+Producto como tal, o sea, todo lo que vayamos a ver como de desarrollo y de Way of Work, pues ya es conmigo, ¿no?
+
+3
+00:00:19,200 --> 00:00:31,800
+Este Pepe está full, full, full con cheques, con procesamiento de cheques, entonces para que todo el Way of Work, todas las reuniones que vayamos este a tener, groomings, sprints, whatever, sea conmigo.
+
+4
+00:00:31,800 --> 00:00:38,800
+Vale, de acuerdo, perfecto, están viendo mi.
+
+5
+00:00:39,360 --> 00:00:51,440
+pantalla no tengo conectado en unos segundos estoy conectando mi monitor que se me desconectó este para mí es más fácil en mi monitor que está más grande
+
+6
+00:01:11,680 --> 00:01:16,400
+Listo, ya lo vemos grande, perfecto.
+
+7
+00:01:16,400 --> 00:01:21,320
+Entonces les cuento lo que es el producto de cheques este garantizados.
+
+8
+00:01:21,320 --> 00:01:21,880
+Pepe, me quieres?
+
+9
+00:01:21,880 --> 00:01:23,760
+¿Me puedes interrumpir en el momento que tú quieras?
+
+10
+00:01:24,400 --> 00:01:38,280
+Este cheques garantizados lo voy a empezar como a comparar con procesamiento de cheques, como ustedes saben o no sé si sepan, pero procesamiento de cheques lo tenemos como un producto, como un método de pago.
+
+11
+00:01:38,960 --> 00:01:52,880
+No, aquí no garantizamos este ningún cheque y pues el cambio de cheque, el o sea, al final pues el responsable es el agente, si no pasa, si fue fraude, etcétera, pues la deuda se la queda el agente, ¿no?
+
+12
+00:01:52,880 --> 00:02:08,000
+Y esto pues nos ha metido en muchas broncas porque hay agentes que no nos pueden este pues pagar la deuda y pues ahí está el equipo de cobranza, pues intentando hacer la mejor este labor.
+
+13
+00:02:08,320 --> 00:02:13,440
+Pues posible, no, pero aquí no somos los responsables sobre el cheque.
+
+14
+00:02:13,800 --> 00:02:18,880
+Entonces lo que va a pasar con cheques garantizados es que sí vamos a ser los responsables de el cheque.
+
+15
+00:02:19,360 --> 00:02:20,640
+¿Qué quiere decir esto?
+
+16
+00:02:21,280 --> 00:02:32,640
+Cuando llega un agente, perdón, un cliente con un agente y cambia el cheque, la responsabilidad de ese cheque es 100% de maxi.
+
+17
+00:02:33,360 --> 00:02:35,360
+Entonces, ¿qué pasa aquí?
+
+18
+00:02:35,360 --> 00:02:38,079
+Este vamos a.
+
+19
+00:02:38,640 --> 00:02:48,480
+Tener, digo, la competencia como lo hace Barry es que hacen la verificación del cheque manual, no con un equipo de backoffice de 50 personas.
+
+20
+00:02:48,720 --> 00:02:52,560
+Oye, Natalia, una pregunta, perdón por interrumpir tan rápido.
+
+21
+00:02:53,280 --> 00:03:03,760
+Era un de hecho una cuestión que teníamos antes de llamar de la llamada y queríamos continuar contigo, check cashing y cheque garantizado es lo mismo entonces en este requerimiento.
+
+22
+00:03:04,000 --> 00:03:07,400
+Sí, okay, perfecto, muchas gracias, de nada.
+
+23
+00:03:08,000 --> 00:03:14,720
+Entonces, como lo hace Barry, es que hace la validación este manual.
+
+24
+00:03:15,120 --> 00:03:16,160
+¿Qué quiere decir esto?
+
+25
+00:03:16,160 --> 00:03:18,280
+Que llaman a la empresa, ¿no?
+
+26
+00:03:18,280 --> 00:03:27,280
+O sea, preguntan si ellos fueron los que los que emitieron ese cheque por la cantidad, cliente, este issuer, todo no.
+
+27
+00:03:27,280 --> 00:03:36,880
+Entonces esto puede llevar bastante tiempo, puede llevar hasta media hora y pues el cliente está esperando y el cliente se pone hasta nervioso y pues yo creo que eso es un.
+
+28
+00:03:37,240 --> 00:03:46,480
+Pues es un paint point fuerte de Barry, no porque pueden estar esperando mucho tiempo para que validen ese cheque, aparte de que únicamente validan de lunes a viernes.
+
+29
+00:03:46,480 --> 00:03:46,680
+¿Por qué?
+
+30
+00:03:46,680 --> 00:03:49,840
+Porque pues las empresas cierran los fines de semana, no?
+
+31
+00:03:50,480 --> 00:04:01,800
+Entonces nosotros como cheque de producto garantizado, cheque cashing, no para resolver este paint point que tiene la competencia.
+
+32
+00:04:02,360 --> 00:04:26,520
+Lo que vamos a hacer es que vamos a conectar es en a PI, es un plug and play que digo, creo que ya muchos este hemos tenido llamadas anteriores con el proveedor de Valid Systems, donde lo que vamos a hacer es bueno Valid Systems, lo que nos va a dar ellos este pues trabajan por medio de un machine learning, son los cambiadores de cheques más grandes de.
+
+33
+00:04:26,720 --> 00:04:40,400
+Todo Estados Unidos tienen una base de datos enorme, han aprendido mucho, el machine learning es mega robusto, entonces por medio del machine learning vamos a escanear el cheque y nos va a responder de forma binaria.
+
+34
+00:04:40,400 --> 00:04:42,960
+¿Sí o no aceptamos ese cheque o no?
+
+35
+00:04:43,680 --> 00:04:56,320
+Ahorita que acabemos el walkthrough del flujo, les voy a enseñar las pantallas que ya hicimos del front de Hermes o K para que se den una idea como es que va a vivir ese.
+
+36
+00:04:56,720 --> 00:05:14,120
+Flujo del cheque, vale, entonces nos nos va a responder con un sí o no y si vamos a entregar el cheque o no, pero también vamos a tener pues excepciones y reglas, ¿no?
+
+37
+00:05:14,120 --> 00:05:17,600
+O sea, si cae en este en.
+
+38
+00:05:18,160 --> 00:05:23,240
+The Night List, pues evidentemente, pues no lo vamos a aceptar, ¿no?
+
+39
+00:05:23,240 --> 00:05:29,960
+O sea, el departamento de cheques de back office en esta ocasión para nosotros, para Maxi, que no es como.
+
+40
+00:05:30,080 --> 00:05:39,159
+Barre, lo que va a hacer es que va a revisar cheques que caigan en diferentes filtros, no que es el edit hold.
+
+41
+00:05:39,159 --> 00:05:58,560
+Si la gente cambia algo este o edita algo dentro de las pantallas de Hermes, pues va a caer en un filtro de edit hold, igual de este OFAC de este duplicado de Dnight List y de Validation Hold, no.
+
+42
+00:05:59,280 --> 00:06:22,440
+Obviamente hay reglas y este es un documento, pues evidentemente que hay que hacer, aún no lo realizamos al 100%, este ya me toca a mí, este lo voy a empezar a estar pronto para que lo tengan, , pero bueno, eso es el producto de cheques este garantizados y bueno, obviamente me faltó mencionar que vamos a cobrar un fee, pero este fee se va a dividir y entonces ahí entra el revenue para maxi, ¿no?
+
+43
+00:06:22,440 --> 00:06:28,440
+O sea, es un nuevo streamline de revenue para la empresa y por eso es demasiado importante porque vamos a compartir el fee.
+
+44
+00:06:28,800 --> 00:06:53,920
+vamos a cobrar 1% de fi y maxi se queda el punto 5 y el agente el punto 5 tienen alguna duda Pepe quieres este agregar algo Eh bueno el fi va a ser variable por estado y por tipo de cheque pero al principio no al principio es 1% no No sí va a ser variable sí va a ser variable o sea ponte el dos
+
+45
+00:06:54,760 --> 00:07:00,080
+O sea, dependiendo el tipo de cheque y el monto del mismo y pues también por regulaciones estatales.
+
+46
+00:07:01,120 --> 00:07:02,960
+¿A qué te refieres con?
+
+47
+00:07:03,840 --> 00:07:11,280
+Si es cheque de caja, cheque corporativo, cheque personal, etcétera.
+
+48
+00:07:12,080 --> 00:07:17,120
+Entonces el porcentaje es con la cantidad que viene en el cheque.
+
+49
+00:07:19,440 --> 00:07:21,600
+Dependiendo el tipo de cheque y el monto.
+
+50
+00:07:22,720 --> 00:07:49,280
+Okay y este fin va a ser todo con anuncio para maxi o se va a repartir para la el Mitad y Mitad Mitad y Mitad no va a haber esquema 6040 con money transfer algo por el estilo no Okay A ver déjame parafrasear dijiste que va a haber un fin
+
+51
+00:07:50,240 --> 00:07:57,280
+para los cheques de los cuales el 50% se queda Maxi 50% de la gente entendí bien.
+
+52
+00:08:00,160 --> 00:08:11,640
+Okay, ese porcentaje puede ser variable, es decir, hoy es 50 50, pero después puede ser 60 40 70 30 o es constante.
+
+53
+00:08:18,480 --> 00:08:41,799
+el fee siempre va a ser un porcentaje del cheque no va a ser un monto fijo porcentaje de cheque porcentaje Okay sí quieren quieren quieren este que les enseñe las pantallas para empezar de Hermes para que se den una idea y luego ya pasamos este flujo creen que es la mejor idea Sí yo creo que sí okay
+
+54
+00:08:50,320 --> 00:08:51,360
+Espérenme tantito.
+
+55
+00:08:52,000 --> 00:08:53,280
+Las estoy encontrando.
+
+56
+00:09:15,090 --> 00:09:16,130
+Aquí está.
+
+57
+00:09:30,400 --> 00:09:32,040
+A ver, ya voy a compartir.
+
+58
+00:09:42,180 --> 00:09:43,220
+¿Ya ven mi pantalla?
+
+59
+00:09:45,820 --> 00:09:48,220
+Sí, ya okay, perfecto.
+
+60
+00:09:48,680 --> 00:10:03,120
+Entonces esta es la pantalla individual, esto lo hicimos con Hermes 2, o K, esto fue algo que hicimos entre Pepe y yo, como nos nos imaginamos las este pantallas, ustedes son los expertos.
+
+61
+00:10:03,120 --> 00:10:09,240
+No sé si aquí haya alguien de UXUI, pero que pues sí quedamos como que dejar esta parte abierta.
+
+62
+00:10:09,240 --> 00:10:15,080
+Digo, sí hay cosas que tienen que estar, no, que yo creo que ya en la etapa de este.
+
+63
+00:10:15,320 --> 00:10:26,960
+Pues de business analystic, de creación de pantallas, pues vamos pues a regresar más esto, no, pero esto es como nos lo imaginamos, vale, entonces esta es la pantalla individual, ¿no?
+
+64
+00:10:27,120 --> 00:10:37,520
+Entonces lo que vamos a hacer es que va este va a tener un una pestañita arriba que en donde vas a poder escoger si tienes check check processing o check cashing.
+
+65
+00:10:38,000 --> 00:10:45,240
+Van a haber agencias que van a tener los 2 productos, entonces por eso es la importancia de las de las 2:00 este pestañitas.
+
+66
+00:10:45,520 --> 00:10:49,840
+Aquí hay que pensar también en los permisos que vamos a dar a las diferentes este agencias.
+
+67
+00:10:49,840 --> 00:10:53,440
+¿Cómo es que o sea, cómo es que vamos a hacer este tipo de permisos?
+
+68
+00:10:53,520 --> 00:10:53,920
+¿No?
+
+69
+00:10:54,480 --> 00:10:59,960
+¿Cómo le vas a dar el permiso a la agencia para hacer este check este cashing?
+
+70
+00:11:00,080 --> 00:11:11,120
+O digo, evidentemente entre más tengamos agencias, pues es mucho mejor, pero como estamos, digo, como sería la estrategia de venta, ¿no?
+
+71
+00:11:11,120 --> 00:11:19,920
+Pues o sea, hay muchas agencias que hacen poco procesamiento de cheques o nulo por toda esta parte del riesgo, ¿no?
+
+72
+00:11:19,920 --> 00:11:24,800
+Entonces pues vamos como apuntar hacia esas con check este con check.
+
+73
+00:11:26,080 --> 00:11:37,600
+Cashing no, pero pueden haber agencias que cambien muchos cheques, pero que también tengan este sí, no check cashing, que yo le digo sí, para porque es muy largo el nombre y luego me trabo.
+
+74
+00:11:37,600 --> 00:11:54,040
+Vale, cpy sí, ya vieron cpy, sí, va o k, entonces está la pestaña de check processing y luego está la de check cashing, no, entonces pues va, habrá que dar clic en.
+
+75
+00:11:54,880 --> 00:12:19,760
+Check cashing, se escanea el cheque, no piensa, llegamos aquí para poder buscar el cliente o agregar un nuevo cliente, vale, y luego buscar el issuer o agregar un nuevo, un nuevo este issuer emisor, no, pues ya agregas.
+
+76
+00:12:20,160 --> 00:12:29,880
+Y te va a aparecer el cheque que también vamos a tener un vendor que se llama Mytech, que se que es de lectura de o CR o K.
+
+77
+00:12:30,800 --> 00:12:41,840
+Entonces vamos a tener una lectura o una comparación de side by side de cheques o K todos estos campos.
+
+78
+00:12:42,560 --> 00:12:52,480
+Se Se pueden este editar aquí es cuando cae uno que si editaste pues manualmente, entonces se va a ir al filtro de edit hold.
+
+79
+00:12:52,640 --> 00:13:00,560
+o K, entonces aquí pueden ver, hacen, hacen, hacen el la comparación side side by side.
+
+80
+00:13:00,560 --> 00:13:07,360
+Aquí damos una opción a la gente que si ve algo que está medio sketchy, que el cliente está nervioso.
+
+81
+00:13:07,840 --> 00:13:11,080
+Que este se le hace, o sea, algo, lo que sea.
+
+82
+00:13:11,120 --> 00:13:20,680
+Entonces ellos pueden dar clic en validación y nota, no, y entonces esto se verá edit hold, vale transacción.
+
+83
+00:13:20,680 --> 00:13:27,200
+Entonces aquí te va a dar el resumen de la transacción que está el monto del cheque.
+
+84
+00:13:27,200 --> 00:13:36,160
+Aquí está hecho con el 1% o K, entonces aquí pueden ver el monto, vale.
+
+85
+00:13:36,880 --> 00:13:39,880
+Y entonces aquí le das click en validar check.
+
+86
+00:13:40,400 --> 00:14:05,120
+Entonces hay diferentes opciones, no está el check declined, no, que o sea, pues vale el sistema, te dice que no es y no es no, y está check on the review, que es cuando se va a validación este manual y el check accepted, no, en donde te va a mostrar otra vez el resumen.
+
+87
+00:14:05,480 --> 00:14:11,040
+Please hand over the money to the client, no, entonces aquí van a poder imprimir los recibos.
+
+88
+00:14:11,600 --> 00:14:17,120
+Vale, aquí está el recibo print, va aquí hay alguna duda.
+
+89
+00:14:17,440 --> 00:14:24,920
+Yo varias, comentaste que el fee era del 1%, pero no me dan los cálculos.
+
+90
+00:14:24,920 --> 00:14:26,320
+Está redondeado hacia arriba.
+
+91
+00:14:26,600 --> 00:14:35,280
+Es lo que iba a preguntar, está redondeado hacia arriba, pero siempre redondeado hacia arriba o redondeado por si es 940 y tantos.
+
+92
+00:14:35,600 --> 00:14:41,120
+El 1% redondeado sería 9 o lo vamos a redondear siempre.
+
+93
+00:14:41,120 --> 00:14:52,200
+¿O sea, yo creo que ahí lo que se va a setear es por cheque el porcentaje, no?
+
+94
+00:14:52,200 --> 00:15:05,000
+O sea, o sea, como dijo Pepe, si es un paycheck este check, si es de si es de este payroll, si es del este treasury.
+
+95
+00:15:05,240 --> 00:15:20,080
+Etcétera, aquí la verdad es que no es, no es como una regla que lo pusimos como hacia arriba, no Pepe ahí, pues más bien pues sería poner el monto del cheque en 1000 USD o sea que hay que cambiarle.
+
+96
+00:15:20,640 --> 00:15:33,360
+Es que lo que iba a preguntar si era más que nada como un tema de visual y en realidad el fee debía ser de 9.87, o sea, si había alguna regla de redondeo, si no, ahí no le hagan caso a ese monto, o sea está.
+
+97
+00:15:35,120 --> 00:15:37,440
+Oye, yo estaba dejando editar por qué.
+
+98
+00:15:37,440 --> 00:15:41,200
+Bueno, ahorita intenté editar de nuevo.
+
+99
+00:15:41,840 --> 00:15:52,160
+Okay, otra pregunta, puedes un poquito hacia atrás, por favor, mencionaste que selecciona el customer y el issue O solamente el customer.
+
+100
+00:15:53,040 --> 00:15:53,600
+Mande.
+
+101
+00:15:53,600 --> 00:15:58,720
+Ahí tienes que seleccionar el customer del cual.
+
+102
+00:16:00,160 --> 00:16:02,080
+Ajá y el issue también.
+
+103
+00:16:05,120 --> 00:16:07,760
+Eso no lo trae Orba.
+
+104
+00:16:08,720 --> 00:16:11,520
+Actualmente eso lo hace Orba, y de ahí lo sacamos.
+
+105
+00:16:11,760 --> 00:16:14,120
+Aquí tiene que ser manual la asignación.
+
+106
+00:16:14,480 --> 00:16:17,960
+Es que realmente aquí todos los clientes van a ser nuevos, ¿estás de acuerdo?
+
+107
+00:16:17,960 --> 00:16:28,320
+Entonces vamos a tener que ir agregando, agregando, agregando hasta que pues ya se repite y van a tener que este pues buscar igual el issuer.
+
+108
+00:16:28,960 --> 00:16:29,840
+Es que.
+
+109
+00:16:30,080 --> 00:16:40,200
+El ishort podemos manejarlo de esa manera, ya es una regla de negocio que nos pudieran comentar, pero generalmente con todos los nuevos productos nuestros clientes se puede decir que son universales.
+
+110
+00:16:40,200 --> 00:16:46,480
+O sea, yo Julio Sierra ya soy un cliente, puedo aparecer en cheques, puedo hacer en percenvil, pay, money orders.
+
+111
+00:16:46,800 --> 00:16:49,760
+Aquí no deberían de aparecer los clientes ya existentes.
+
+112
+00:16:52,240 --> 00:16:54,400
+Pero es que no tenemos clientes existentes.
+
+113
+00:16:54,640 --> 00:17:01,040
+Es que tenemos clientes de money transfers, por ejemplo, yo, Julio Sierra, siempre he ido Maxi a hacer mis envíos de dineros.
+
+114
+00:17:01,040 --> 00:17:04,880
+¿Y podríamos hacer ese merch, o sea, podríamos tener esa base de datos aquí?
+
+115
+00:17:05,440 --> 00:17:10,960
+Sí, es que justamente nuestros clientes aparecen en todos nuestros productos, no son exclusivos de un producto.
+
+116
+00:17:11,880 --> 00:17:13,440
+¿Pues entonces hay que incluirlo, no, Pepe?
+
+117
+00:17:14,000 --> 00:17:14,640
+¿Sería bueno?
+
+118
+00:17:15,359 --> 00:17:21,760
+Sí, como dice Julio, ya están incluidos, de hecho en City ya están este unificados.
+
+119
+00:17:22,160 --> 00:17:47,200
+Okay y para el isure pudiera hacer lo mismo ahí Creo que es más decisión de que nos den pauta ustedes si utilizar los que ya tenemos o creamos una base de datos nueva pero si tenemos que usar los que ya tenemos también se pudiera hacer O sea que la base de datos aquí aquí yo tengo una pregunta la base de datos para este producto va a ser la misma base de datos que tenemos para CP y para money transfers
+
+120
+00:17:49,760 --> 00:18:08,880
+Debería porque no tenemos más de una base de datos productivo, por así decirlo, y dentro de la base de datos se puede diferenciar el cliente que es, o sea, qué es lo que más realizas y este money transfers o CP o CC.
+
+121
+00:18:10,160 --> 00:18:20,120
+Pues el nombre el teléfono la dirección y listo se podría hacer con un cuero sería un poco complicado, digo más más que complicado pesado, pero sí se pudiera realizar.
+
+122
+00:18:21,600 --> 00:18:31,960
+Ok y estaba yo pensando, o sea, justamente en el problema de la Pues de la nube, no, pero pues si ya la tiene y se puede integrar y se puede ir alimentando igual, pues buenísimo.
+
+123
+00:18:34,000 --> 00:18:39,280
+Y otra pregunta mencionaron un recibo aquí
+
+124
+00:18:39,760 --> 00:18:51,480
+Creo que ya me había tocado platicar ese tema contigo, Pepe, pero los recibos que anteriormente teníamos en cheques no recuerdo muy bien cómo estaba el tema, pero no eran controlados por cumplimiento porque no eran obligatorios.
+
+125
+00:18:51,480 --> 00:19:00,320
+No teníamos ahora sí que la obligación de mostrar ciertos datos, así que quien nos daba la pauta eras tú y no Laura.
+
+126
+00:19:00,720 --> 00:19:07,280
+En este caso van a ser recibos que sí van a tener que controlar cumplimiento o serían similares a los que ya tenemos.
+
+127
+00:19:08,080 --> 00:19:12,480
+Sí, ahí los tiene que controlar cumplimiento porque ya somos nosotros los cambiadores del check como tal.
+
+128
+00:19:12,640 --> 00:19:15,840
+Okay, entonces sería un recibo a nivel cumplimiento.
+
+129
+00:19:15,840 --> 00:19:17,560
+Okay, gracias.
+
+130
+00:19:18,880 --> 00:19:25,840
+Esto te lo tengo que dar yo, o sea, lo que tiene que venir dentro del recibo o tú hablas con cumplimiento.
+
+131
+00:19:27,120 --> 00:19:34,400
+Creo que más bien debería ser el negocio en este caso ustedes hablar con cumplimiento o si llegar a algún acuerdo y ya nos lo paso.
+
+132
+00:19:37,920 --> 00:19:47,080
+Espérame, nada más que pregunto porque de repente cumplimiento nos pide algún cambio y cuando nos lo piden nos lo piden para todos.
+
+133
+00:19:47,080 --> 00:19:53,600
+Estaba en la sección de que cheques no estaba dentro de ese todos, pero al menos este de cc sí va a aplicar.
+
+134
+00:19:58,400 --> 00:20:02,760
+Okay, okay, okay.
+
+135
+00:20:03,440 --> 00:20:28,880
+Yo tengo una duda cuando están los cheques que dices que se compara al lado al lado uno y otro el primer cheque que aparece es ese cheque es el que se digitaliza y el de la derecha este Qué es pues es uno anterior con el que podamos.
+
+136
+00:20:30,800 --> 00:20:41,480
+Puede ser uno que este, o sea, digo, depende del banco también, no porque el tenemos alguna alguna base de datos de imágenes de cheques.
+
+137
+00:20:41,480 --> 00:20:56,520
+Esto ya lo tienes en CP, no, Pepe, el side by side, no, entonces esta imagen cómo se o sea esta imagen de dónde la podríamos este.
+
+138
+00:20:57,760 --> 00:21:07,120
+Sacar puede ser una imagen fija que de que dependiendo el tipo de cheque aparezca el cheque, o sea, como un como un ejemplo.
+
+139
+00:21:07,760 --> 00:21:16,080
+¿Cómo se puede o cómo lo pensabas hacer el o sea, de dónde sale el cheque con el que van a comparar?
+
+140
+00:21:16,080 --> 00:21:20,200
+Es de la base de datos de imágenes del OCR.
+
+141
+00:21:21,040 --> 00:21:25,840
+No es este de las bases de la base de datos que tenemos nosotros, o sea, es un cheque que se procesó.
+
+142
+00:21:26,480 --> 00:21:54,400
+anteriormente de ese emisor Entonces es el cheque de la base de datos que ya tenemos tiene que ser un cheque anterior no es un cheque dooming no un cheque anterior pregunta solo porque decía hay tema de privacidad por eso porque puede ser de otro costumer no no Pero según yo
+
+143
+00:21:55,520 --> 00:21:59,920
+No hay tema, yo se tendría que validar con cumplimiento, pero según yo no.
+
+144
+00:22:00,240 --> 00:22:02,480
+Y qué pasaría cuando será un inicio nuevo?
+
+145
+00:22:05,120 --> 00:22:07,080
+No mostraría nada.
+
+146
+00:22:07,600 --> 00:22:21,680
+Entonces quieren que veamos esto check cashing new customer Entonces es aquí es la cosa cuando le das clic en add new.
+
+147
+00:22:22,640 --> 00:22:22,960
+No?
+
+148
+00:22:24,720 --> 00:22:29,680
+En este customer nuevo pues te vas a llenar toda la información donde metes el nombre
+
+149
+00:22:30,240 --> 00:22:57,160
+el last name el Second last name address exterior interior zip code City State date of agrupation y este y bueno todo esto que Okay ahí dos preguntas es necesario llenar toda la información desde el inicio es todo requerido todo es requerido Okay menos lo que dice opcional
+
+150
+00:22:57,800 --> 00:23:05,960
+Bueno, es que habían algunas que iban a hacer el 2 o K y veo que hay un botón de validar, es necesario para el producto.
+
+151
+00:23:05,960 --> 00:23:06,960
+¿Validar el teléfono?
+
+152
+00:23:06,960 --> 00:23:08,560
+Sí, vamos a validarlos.
+
+153
+00:23:08,960 --> 00:23:25,200
+Ok, entonces a ver la pantalla de validar, aquí está six digit verification code, lo meten o K o K y entonces aquí van a poner las fotos, ¿no?
+
+154
+00:23:25,640 --> 00:23:49,280
+client photo Front ID Back ID vale una pregunta porque Generalmente nuestros productos el no subir la imagen de tu identificación no es un stopper porque aquí sí Okay es lo que iba a preguntar aquí sí va a ser un stop no subes tu la imagen de identificación no puedes continuar sí y es cualquier identificación O tiene que ser una de Estados Unidos.
+
+155
+00:23:53,200 --> 00:23:54,320
+Pues cualquiera no.
+
+156
+00:23:59,040 --> 00:24:05,600
+Esa pregunta es más para cumplimiento y una un listado de identificaciones válido.
+
+157
+00:24:06,640 --> 00:24:09,120
+Okay, una pregunta.
+
+158
+00:24:12,720 --> 00:24:18,600
+Y la foto es una foto que se tome del cliente al momento de la cámara, sí, de la cámara.
+
+159
+00:24:21,040 --> 00:24:25,840
+Mira, aquí te marco en rojo que tiene que subir el Front ID, no?
+
+160
+00:24:26,480 --> 00:24:27,000
+Okay.
+
+161
+00:24:27,440 --> 00:24:38,280
+Y entonces este customer added successfully aquí checas todo si quieres editar puedes regresar si no next.
+
+162
+00:24:39,120 --> 00:24:48,880
+otra pregunta Generalmente para el número de impuestos o bueno tax ID que puedes ir a Team ITIN SCN o lo que sea.
+
+163
+00:24:49,520 --> 00:24:54,080
+En otros productos se maneja una pregunta, el customer tiene tax ID?
+
+164
+00:24:54,560 --> 00:25:00,800
+En caso de que sea sí, pues le permitimos capturarlo y en caso de que sea no se permite continuar.
+
+165
+00:25:01,120 --> 00:25:06,640
+Aquí es obligatorio tener tax ID o habría que agregar esa opción en la pantalla?
+
+166
+00:25:08,960 --> 00:25:11,120
+Sí lo estamos metiendo como obligatorio, no?
+
+167
+00:25:16,480 --> 00:25:17,440
+No, o sea.
+
+168
+00:25:18,160 --> 00:25:45,360
+como dice Julio no viene opcional Sí es que si no tiene número de impuestos Pues sí pues vamos a perder un chorro de clientes Okay a lo mejor no más es un ajuste en el signo pero aquí ya lo tomé como nota siempre por regulación se tiene que solicitar el tax ID si no lo tienen pues ya nada más le pones ahí no no tiene
+
+169
+00:25:52,480 --> 00:25:52,840
+Sí.
+
+170
+00:25:52,840 --> 00:25:59,520
+Sí, todo bien, gracias.
+
+171
+00:26:01,840 --> 00:26:04,240
+Okay, luego el issuer Search.
+
+172
+00:26:05,680 --> 00:26:06,920
+Este.
+
+173
+00:26:12,560 --> 00:26:13,120
+Search.
+
+174
+00:26:20,160 --> 00:26:42,880
+New issuer, recibar scan check, taca taca, add new este issuer, no, entonces aquí lo puedes hasta agregar arriba, ya vieron, acá agregas el issuer para que no se cree otra pantalla y sea mucho más fácil.
+
+175
+00:26:42,880 --> 00:26:48,040
+Entonces aquí mismo arriba llenan la información y le dan clic en.
+
+176
+00:26:48,480 --> 00:26:59,840
+Add new issuer y checan que la información sea este correcta, igual editar se regresan y next, perdón, se me atora.
+
+177
+00:27:00,960 --> 00:27:17,920
+Entonces ya lo van a ver acá en el side by side del cheque sale y reportes, los reportes para el frontend de agentes.
+
+178
+00:27:18,160 --> 00:27:27,120
+No, entonces checa sin report pueden seleccionar el rango, no view.
+
+179
+00:27:30,040 --> 00:27:40,000
+Pueden este tener todas estas este estos este filtros, que es lo que están de buscando si quieren ver o print.
+
+180
+00:27:41,200 --> 00:27:46,480
+Así se ve toda la información que pueden ver en la pantalla.
+
+181
+00:27:46,480 --> 00:27:59,160
+Tienen el estatus de declined review o accepted, que el de review pues realmente no puede estar más de 5 minutos en review, no, porque pues vamos a tener un equipo que va a estar.
+
+182
+00:27:59,920 --> 00:28:12,960
+Este, pues checando todos los cheques, a menos a que se vaya uno a superinvestigación con cumplimiento, pues sí puede este pues caer en este estatus, ¿no?
+
+183
+00:28:13,680 --> 00:28:27,920
+Entonces acá les ponemos que pueden tener more info de cada uno de los cheques, o sea, en estos 3 puntitos pueden o ya sea imprimir o obtener más información.
+
+184
+00:28:28,480 --> 00:28:51,040
+Sobre el cheque en donde van a poder ver qué cheque fue y él lo procesó, fecha, número de ese teléfono y por el sistema este este verified by us, no que es el sistema, pues el writing number, routing number y el account number.
+
+185
+00:28:51,680 --> 00:28:55,920
+No te puedes ver que.
+
+186
+00:28:56,400 --> 00:29:05,440
+Puedes tener un sí está en decline, entonces puedes ver la razón por la que se se declinó.
+
+187
+00:29:05,920 --> 00:29:10,520
+No este No sé si vayan teniendo aquí alguna duda.
+
+188
+00:29:12,080 --> 00:29:18,080
+Puedes ver el reverso igual, no, porque para ver que pues está endosado si hubo alguna.
+
+189
+00:29:19,560 --> 00:29:30,760
+Pues alguna falla de que no viene pues endosado, entonces se declinó lo que ustedes quieran ver, no, entonces está por frente y de este y del otro lado.
+
+190
+00:29:31,600 --> 00:29:41,200
+Vale, entonces estos son los reportes y estos son los recibos que pueden este pues imprimir.
+
+191
+00:29:41,920 --> 00:29:48,200
+Vale que igual esto, pues ya se los paso, voy a hablar con cumplimiento para que me recibos que tenemos.
+
+192
+00:29:48,200 --> 00:29:48,960
+este.
+
+193
+00:29:50,160 --> 00:29:52,720
+¿Pues ¿Qué información tiene que ir en el recibo?
+
+194
+00:29:52,800 --> 00:29:55,040
+Sale, entonces esa información pues se las debo yo.
+
+195
+00:29:55,360 --> 00:30:00,200
+Les voy a deber bastantes cosas todavía.
+
+196
+00:30:00,200 --> 00:30:11,600
+o K o K, bueno, esto se los puedo compartir.
+
+197
+00:30:11,600 --> 00:30:12,880
+¿Quieren que se los comparta?
+
+198
+00:30:16,080 --> 00:30:17,520
+Yo creo que sí.
+
+199
+00:30:18,480 --> 00:30:20,840
+¿Cuál es tu mail?
+
+200
+00:30:20,840 --> 00:30:27,840
+JC Sierra, JC Sierra, sí, JC Sierra, arroba, maxi.
+
+201
+00:30:30,480 --> 00:30:31,080
+¿Quién más?
+
+202
+00:30:32,480 --> 00:30:40,720
+A Pérez, por favor, cuál es a Pérez, a Pérez, los escribimos en el chat de la llamada.
+
+203
+00:30:46,480 --> 00:30:48,120
+A ver, pásenmelos por acá.
+
+204
+00:30:56,210 --> 00:31:23,090
+a ver dónde está ahora esto Ah ya ya te puse Ale perfecto entonces se lo compartí a Pedro sí Julio Ale está bien o alguien más falta Ah acabo de poner mío m Prado Ah Ah no lo había visto perfecto
+
+205
+00:31:27,920 --> 00:31:28,560
+Ya quedó.
+
+206
+00:31:30,640 --> 00:31:31,240
+Gracias.
+
+207
+00:31:34,000 --> 00:31:35,520
+Perfecto entonces.
+
+208
+00:31:38,240 --> 00:31:42,800
+Entonces vemos el flujo ahora no donde ya podemos hablar de los departamentos y todo esto.
+
+209
+00:31:44,080 --> 00:31:47,600
+Pues bueno una pregunta antes de irnos a lo mejor me adelanto un poquito.
+
+210
+00:31:48,000 --> 00:31:58,000
+A nivel banco Southside Banco de Texas soul National el archivo x9 que se manda hay diferencia entre estos cheques los de cc y cp?
+
+211
+00:32:00,240 --> 00:32:02,720
+Esta respuesta ya no la cpp me puedes ayudar.
+
+212
+00:32:04,480 --> 00:32:17,360
+A ver cómo estuvo Julio a nivel del archivo x9 que mandamos a los bancos hay diferencia entre los cheques que se producen por cc y cp o todos se tratan por igual y se mandan a los bancos.
+
+213
+00:32:17,640 --> 00:32:47,280
+se van a mandar a distintas cuentas bancarias de los mismos bancos distintas cuentas bancarias de los mismos bancos Okay gracias listo okay Entonces les cuento un poco em esto es un un flujo que habla sobre los departamentos que están involucrados
+
+214
+00:32:49,280 --> 00:32:51,480
+¿Para como desarrollo, no?
+
+215
+00:32:51,480 --> 00:32:54,000
+O sea, que ¿Cuáles están involucrados?
+
+216
+00:32:54,080 --> 00:32:59,960
+Vale, hay algunos departamentos como el Departamento de Finanzas que va a seguir trabajando.
+
+217
+00:33:00,040 --> 00:33:28,000
+Igual, no solamente vamos a requerir que generen reportes, no este que pues ya lo vamos a ver y es una lista de reportes que les entrego yo en un este prdy y con las columnas y todo vale que va a tener cada uno de los reportes, pero por ejemplo, el área de finanzas va a seguir trabajando igual, solamente es generación de reportes, no donde estamos viendo que sí, que sí se va a necesitar desarrollo, no o sea, nuevos módulos.
+
+218
+00:33:28,560 --> 00:33:43,760
+¿Es en el departamento, pues de frontend de cheques en el departamento de backend de cheques, no que son los que vamos a tener este atrás en back office, pues validando cheques, no?
+
+219
+00:33:44,560 --> 00:33:53,920
+Y trabajando también de la mano con el equipo de cobranza, va, ahorita lo vamos a ver.
+
+220
+00:33:54,880 --> 00:34:21,600
+Otro Otro que vamos a necesitar de desarrollo, pues también este para el equipo de compliance, que tengo una llamada más adelante con Jorge y Laura el día de mañana, en donde vamos a hablar de Némesis, porque el departamento pues de cumplimiento sí nos preocupa un poco porque todo es dentro de Némesis, no, entonces vamos a poder automatizar, vamos a poder meter reglas, cómo es que lo vamos pues a trabajar, no, entonces este.
+
+221
+00:34:22,679 --> 00:34:27,199
+Pues bueno, voy a tener una llamada con ellos el día de mañana para ver ese tema.
+
+222
+00:34:28,000 --> 00:34:41,880
+El área de cobranza, pues iba a necesitar este desarrollo igualmente, no, porque aquí pues vamos a tener que tener un flujo muy detallado sobre.
+
+223
+00:34:42,960 --> 00:35:11,320
+Sobre la, o sea, Sobre la cantidad de cheques que tenemos a cobrar es el departamento más importante este y el de bueno, todos son sumamente importantes, pero el de cobranza es sumamente importante porque pues son los que van a salir a perseguir el dinero, no este como por ejemplo en procesamiento de cheques, pues el agente iba, pues es el responsable de ir a cobrar, no, entonces pues el agente vive en la misma ciudad que el que le cambió el cheque y tiene la.
+
+224
+00:35:11,520 --> 00:35:38,880
+Esta dirección puede ir a su casa y le puede tocar la puerta aquí el equipo de cobranza, pues están en home office y es y van a hacer todos los cheques que se reboten o el cual sea la razón que tengan que ir a este a cobrar, no, si es duplicado, etcétera, pues lo van a tener que hacer dentro de su módulo, plataforma, reglas, este way of work, etcétera.
+
+225
+00:35:38,880 --> 00:35:38,960
+no?
+
+226
+00:35:39,520 --> 00:35:49,920
+Entonces, pues sí, es un departamento con mucha importancia, el de conciliación y contabilidad es igual que el de finanzas.
+
+227
+00:35:49,920 --> 00:36:05,120
+Aquí lo dividimos en 2 y el monitoreo de BSA, no este entonces esto yo ya, o sea, toda esta información que estamos viendo, yo se la mandé a Jorge.
+
+228
+00:36:05,120 --> 00:36:08,880
+Entonces, si necesitan que yo les reenvié ese correo a todos ustedes, se los reenvío.
+
+229
+00:36:09,120 --> 00:36:14,640
+O K, lo que no sabía quiénes eran exactamente los que les tenía que enviar.
+
+230
+00:36:15,120 --> 00:36:20,800
+Va, Pepe, no sé si quieras este agregar algo, no todo bien.
+
+231
+00:36:20,800 --> 00:36:38,160
+Sí, o K, entonces esta parte de frontend Hermes es todo lo que vimos en las este pantallas, no donde inicia, se escanea el cheque, se busca el cliente, el cliente es existente, si es no.
+
+232
+00:36:38,880 --> 00:37:07,040
+Entonces es este este agregar el cliente nuevo, capturar el KYC, el celular, el nombre completo, domicilio completo, fecha de nacimiento, celular 2, ocupación, país de nacimiento, email, tipo de de identificación de impuestos, este ID, no, y entonces ahí el celular tienes que validar ese celular, como ya lo vimos en la pantalla, tienes que capturar el código de los 6 dígitos, dar dar clic en continuar.
+
+233
+00:37:07,680 --> 00:37:23,880
+En ocupación hay una sub ocupación, no u otra, y el ID tienes que agregar toda esta información que es el país emisor, estado, fecha de expiración, foto de ID de frente, tipo de ID, número de ID, foto de cliente, foto de ID reverse.
+
+234
+00:37:24,640 --> 00:37:36,160
+Y esto concluye en este en ya se capturaron los campos obligatorios, dar clic en aceptar, validar que la información sea.
+
+235
+00:37:36,560 --> 00:37:38,480
+Correcta en ventana emergente.
+
+236
+00:37:38,800 --> 00:38:00,800
+La información es correcta, si es no es dar clic en editar, como que ya lo vieron que te regresas y vuelves a la pantalla para volver a meter la información, editar o moverle, dar clic en si la si la información es correcta, sí, dar clic en siguiente búsqueda del IMESOR.
+
+237
+00:38:00,800 --> 00:38:03,120
+Todo esto que vean así son notas o K.
+
+238
+00:38:04,560 --> 00:38:18,920
+Maite captura la información de manera automática, es el es el Ay, perdón, voy a voy a estornudar, este es el o CR, salud, gracias.
+
+239
+00:38:18,920 --> 00:38:29,960
+El emisor es existente, sí, seleccionar emisor y te brincas todo esto, si es no, entonces vas a capturar la información, el nombre del emisor, calle, el número de ruta.
+
+240
+00:38:30,080 --> 00:38:42,040
+Número exterior, número de cuenta, número interior, celular, código postal, teléfono adicional, dar clic en agregar nuevo emisor, validar que la información sea correcta en ventana emergente.
+
+241
+00:38:42,040 --> 00:38:57,520
+La información es correcta, no dar clic en editar, sí, dar clic en siguiente, cotejar imágenes de cheques que es el side by side que vimos, validar información de cheque, validar información.
+
+242
+00:38:58,000 --> 00:39:08,160
+De El cheque, no donde vas a ver el nombre del emisor, fecha de emisión, número de cheque, monto, número de ruta, número de cuenta, nombre de cliente.
+
+243
+00:39:08,160 --> 00:39:19,920
+Si le dan click a cualquier campo relacionado al emisor y o beneficiario, nos regresa a la captura de información de estos: primer apellido, segundo apellido, tipo de cheque, banco emisor.
+
+244
+00:39:21,360 --> 00:39:30,000
+Coincide el cheque con coincide con el cheque, no cambiar banco si dejar el valor actual.
+
+245
+00:39:30,680 --> 00:39:34,720
+La información es la información capturada es correcta.
+
+246
+00:39:35,200 --> 00:39:50,560
+Seleccione si requiere variación manual, si sí, dar click en checkbox, si no es dejar el blanco, revisar el resumen de la transacción, que es en donde vienen los números, en donde vieron que hay un error de números en donde hay que cambiar los 1000 USD.
+
+247
+00:39:51,280 --> 00:39:56,880
+Este crédito neto, comisión del agente, monto del cheque, tarifa del cheque, monto total.
+
+248
+00:39:57,600 --> 00:40:08,720
+La información es correcta, dar clic en validar cheque, este revisar en ventana emergente resultado.
+
+249
+00:40:09,240 --> 00:40:14,400
+Entonces este ay, espérate, ya lo he picado ya.
+
+250
+00:40:15,160 --> 00:40:32,800
+Cheque declinado, cheque en revisión manual, cheque aceptado como ya lo vimos, dar clic en aceptar agente disputa el resultado, realizar validación manual en back office, como ya lo vimos, este entregar el dinero hasta que el cheque sea este pues liberado, ¿no?
+
+251
+00:40:34,240 --> 00:40:44,960
+El cheque fue liberado, no dar clic en aceptar, o sea, no vamos a dar el dinero, fue liberado, sí, entregar el dinero al cliente, al igual que cuando fue aceptado.
+
+252
+00:40:45,920 --> 00:41:02,400
+El cliente requiere recibo, este dar clic en si no, aquí no va, dar clic en imprimir, seleccionar tipo de impresión, seleccionar impresora, dar dar clic en imprimir, fin.
+
+253
+00:41:02,760 --> 00:41:07,120
+No, este es el de el de el de el frontend para Hermes.
+
+254
+00:41:07,120 --> 00:41:12,240
+¿Está claro, cuando dice que va a imprimir es imprimir el recibo, verdad?
+
+255
+00:41:12,400 --> 00:41:21,480
+Claro, sí, imprimir el recibo, así es, sí.
+
+256
+00:41:22,240 --> 00:41:25,040
+¿Contra qué valida que sea un cheque válido?
+
+257
+00:41:27,120 --> 00:41:29,120
+¿Cómo que para qué valida que sea un cheque válido?
+
+258
+00:41:29,120 --> 00:41:38,600
+No contra qué valida, quién nos va a decir que el cheque es valid systems, el machine learning con el que vamos a trabajar.
+
+259
+00:41:38,800 --> 00:41:56,560
+Cuando das clic en escanear el cheque, esta empresa, este ML AI nos va a decir en 2 segundos si el cheque es si es aceptado o no, sí o no en binario, sí, no, ellos son los que nos van a decir.
+
+260
+00:41:56,720 --> 00:42:03,920
+Si se va a revisión manual, entonces ya cae en estos filtros que vamos a platicar ahorita y entonces ahí vamos a tomar la decisión nosotros.
+
+261
+00:42:05,600 --> 00:42:09,400
+Cómo me dijiste que se llama valid valid.
+
+262
+00:42:12,880 --> 00:42:23,320
+Hay una pregunta y a lo mejor comparándolo con lo que tenemos ahora actualmente si se cae orogra y nos ha pasado no se detiene la operación.
+
+263
+00:42:23,760 --> 00:42:49,400
+en este caso si valid systems tiene algún problema dice que sí se tendría todo la operación no pues es algo Mira este este tema obviamente lo validamos con otras empresas como hib cómo es que trabaja este valid Systems ellos llevan trabajando 15 años con ellos y no se les ha caído ni una sola vez Okay pues
+
+264
+00:42:50,160 --> 00:42:56,320
+Digo en el caso teórico de que pase, pues sí no podría como revisión manual.
+
+265
+00:42:58,000 --> 00:43:02,280
+Ah, ok, entonces sí deberíamos de permitir un flujo si el lápiz no está funcionando.
+
+266
+00:43:02,280 --> 00:43:04,320
+Si se cae, sí, sí, definitivamente.
+
+267
+00:43:04,800 --> 00:43:07,240
+Ok, no, más bien.
+
+268
+00:43:07,240 --> 00:43:13,840
+Yo creo que detendríamos el proceso Julio porque vale existen es que nos dice si el cheque es bueno o no.
+
+269
+00:43:14,240 --> 00:43:18,320
+Ah, ok, entonces más bien deberíamos podríamos darle todo a revisión manual.
+
+270
+00:43:18,520 --> 00:43:20,560
+Pues no tendríamos el equipo para soportarlo.
+
+271
+00:43:31,490 --> 00:43:37,010
+Okay, entonces más bien debería haber un botón de pánico para pausar el producto, ¿no?
+
+272
+00:43:37,650 --> 00:43:41,170
+Pero es que a ver, espérame, espérame, porque aquí me entra a mí una duda.
+
+273
+00:43:42,850 --> 00:43:54,930
+Hay muchas veces, digo, esto fue algo que nos dijo la CFO de HEB, que cuando les ha pasado esto que no funciona la plataforma, la mayoría de las veces es la culpa de ellos.
+
+274
+00:43:55,280 --> 00:43:59,960
+Bueno, que siempre es culpa de HEB, que no es de.
+
+275
+00:44:01,520 --> 00:44:16,720
+Entonces si se detiene el proceso no perderíamos muchos clientes, o sea muchos cheques PP, o sea, no podríamos tener esta revisión que tenemos como este override que hace Barry en dado caso que se caiga.
+
+276
+00:44:17,600 --> 00:44:27,120
+Es que imagínate que caigan 1000 cheques y nada más tenemos 2 personas en el back office para hacer validaciones manuales, no nos van a poder liberar esos 1000 cheques.
+
+277
+00:44:29,240 --> 00:44:50,520
+Creo que igual, bueno, lamento meterme, pero esto no se sustituiría al procesamiento de cheques que ya existe, solamente es para cheques nuevos donde el agente no conoce al sujeto que le trae un cheque nuevo o más bien pueden ser clientes nuevos o existentes.
+
+278
+00:44:50,520 --> 00:44:52,960
+Lo que busca el agente es que el cheque esté garantizado.
+
+279
+00:44:53,520 --> 00:45:08,160
+Claro, pero ahorita en este momento de la vida, la gente conoce, bueno, toma el riesgo de qué cheques acepta y qué cheques no, seguro ya tiene su cartera de clientes y los que ya conoce pues ni siquiera los va a pasar por cheque garantizado.
+
+280
+00:45:09,840 --> 00:45:14,400
+Sí, o sea, esto va a sustituir a lo que ya se tiene.
+
+281
+00:45:14,480 --> 00:45:20,800
+Es que se tienen ambos tipos, hay agentes que nada más nos van a pasar los cheques riesgosos, es decir, a los clientes nuevos o que no conocen.
+
+282
+00:45:21,200 --> 00:45:30,560
+Hay agentes que les han pasado tantas cosas o han pasado por tantos claves que por más que conozcan a los clientes, les les da igual, quieren que estén los cheques garantizados.
+
+283
+00:45:32,280 --> 00:45:35,760
+O sea, ya no quiere correr, ya no quiere correr el riesgo.
+
+284
+00:45:36,720 --> 00:45:39,680
+O sea, puede dar, pueden darse ambos casos.
+
+285
+00:45:44,720 --> 00:45:45,600
+Ok, pues.
+
+286
+00:45:46,960 --> 00:45:54,640
+Ahí si no sabría, no como si Valid Systems se cae, no sabría como cuántos cheques caerían en ese momento.
+
+287
+00:45:57,280 --> 00:45:57,920
+¿Cómo?
+
+288
+00:45:58,320 --> 00:45:59,120
+No entendí.
+
+289
+00:46:00,000 --> 00:46:12,320
+Sí, pues si tenemos los 2 tipos de clientes, entonces Valid Systems se cae, los agentes que son paranoicos no cambiarían cheques cheques en ese momento si Valid Systems se cae.
+
+290
+00:46:12,960 --> 00:46:19,080
+Sí, justo no sabríamos la cantidad que estaríamos esperando, sería una catástrofe por validación manual.
+
+291
+00:46:19,080 --> 00:46:30,360
+Ajá, los agentes le tendrán que decir a los clientes que regresen al día siguiente o más tarde o algo básicamente o procesarlos por con salto de fe.
+
+292
+00:46:30,360 --> 00:46:38,720
+No, ese es el punto es que se animan, pero no necesariamente van a tener el producto de cheques o de CP perdón de cheques no garantizados.
+
+293
+00:46:40,400 --> 00:46:41,280
+Ese es el tema.
+
+294
+00:46:53,520 --> 00:47:09,920
+Okay digo a lo mejor no tenemos la respuesta ahorita si debería Deshabilitar o debería haber algún flujo offline digo lo tomé como nota de posible caso de los dos igual si quieren continuamos con los siguientes flujos pero creo que sí van a ser una de las cosas que se van a tener que responder
+
+295
+00:47:13,440 --> 00:47:38,960
+puedes repetir se me cortó a mí un poco de que creo que a lo mejor ahorita no tenemos Clara la respuesta de si deberíamos permitir un flujo offline como ya lo permite SP o si debería de bloquearse todo el producto con una especie de botón de pánico cuando creo que eso ya ya lo definimos ahorita no O sea que sería una catástrofe si
+
+296
+00:47:39,600 --> 00:48:06,560
+permitimos ese flujo O sea sí sí Entonces es definitivo de que nos vamos por pausar el módulo pausar sí Okay listo Muchas gracias vale Ahí le tenemos que echar porque ya nos queda media hora a ver este digo podemos si quieren otra otra de porque reunión el día el día de mañana igual puedo yo eh cuando quieran Okay sale
+
+297
+00:48:07,280 --> 00:48:12,240
+Para revisar los este PRDS o lo que quieran, va, tal vez uno nos dé tiempo.
+
+298
+00:48:13,120 --> 00:48:36,160
+Entonces vamos a vale, creo que aquí como nos vamos a conectar sería con el área, vamos a hablar del área ahorita de este KYC Analyst o K, entonces aquí en la parte de revisar en ventana este.
+
+299
+00:48:37,200 --> 00:48:53,800
+En ventana emergente, el resultado acá en prevención de, perdón, en este, en KYC Analyst empieza un flujo, digo, o sea, se los hicimos así para que vean cómo es que se conecta.
+
+300
+00:48:53,800 --> 00:48:56,280
+Está bien para que lo podamos hablar así.
+
+301
+00:48:56,880 --> 00:49:05,920
+Entonces, recepción de cheques a bandeja de revisión manual, no, o sea, hay una bandeja de revisión manual que cae sobre el.
+
+302
+00:49:06,560 --> 00:49:29,920
+El este, el KYC Analyst, donde va a tener 2 filtros, no que va a tener el OFAC Hold y el KYC Hold, no, entonces si cae en OFAC Hold, entonces hay una coincidencia exacta en listas OFAC y sí liberar el cheque, no rechazar el cheque y notificar a.
+
+303
+00:49:30,240 --> 00:49:57,840
+analist vamos a hablar de él acá Okay no está al revés esa condición sí creo que sí está al revés si no es liberar el cheque tienen razón al revés Sí entonces rechazar el cheque y este este bs y análisis no y el kyc Hold la información capturada es correcta sí liberar cheque no rechazar cheque
+
+304
+00:49:58,640 --> 00:50:06,840
+El cheque fue liberado y entonces aquí es cuando regresas al a revisar en ventana emergente el resultado.
+
+305
+00:50:07,200 --> 00:50:26,800
+Okay, si fue declinado, si está revisando o no, si fue aceptado, que normalmente cuando ya cayó acá, evidentemente en el que iba así analista, si fue liberado, pues ya te va a aparecer la ventana emergente de cheque aceptado, no una pregunta, entonces yo proceso el cheque y mientras está procesando está validando.
+
+306
+00:50:27,200 --> 00:50:31,360
+¿Alguien del lado del backoffice tiene que validar la información de KYC?
+
+307
+00:50:33,840 --> 00:50:54,160
+El equipo de compliance tiene que validar la información de KYC si si si si si si este si cae en un este KYC Hall porque la información es o aquí como era PP para o sea de cómo cae al este KYC Hall.
+
+308
+00:50:55,040 --> 00:51:01,280
+Cuando son clientes nuevos tienen que validar la información y hacer el cotejamiento con el ID que capturan.
+
+309
+00:51:01,280 --> 00:51:06,000
+Exactamente, solamente cuando son clientes nuevos, aquí no van a haber reglas de montos.
+
+310
+00:51:07,600 --> 00:51:08,600
+Clientes nuevos.
+
+311
+00:51:08,600 --> 00:51:09,240
+No, clientes.
+
+312
+00:51:10,320 --> 00:51:22,600
+Ok, sí, entonces nos vamos a, está trabando esto, a departamento de cheques, vale.
+
+313
+00:51:24,240 --> 00:51:27,640
+Entonces la cheque cheque en revisión manual.
+
+314
+00:51:27,640 --> 00:51:47,520
+Entonces aquí se va a una bandeja, no en Cronos, este en donde se reciben todos los checos de revisión manual y van a tener estos filtros: edit hold, ofax hold, duplicate hold, deny list y validation hold.
+
+315
+00:51:48,240 --> 00:51:48,560
+o K.
+
+316
+00:51:49,800 --> 00:52:02,800
+Entonces, en edit hold es validar que la información de los campos en rojo sea correcta, si se libera el cheque, no se rechaza el cheque seleccionando el motivo correspondiente.
+
+317
+00:52:03,840 --> 00:52:19,720
+Este OFAC va validar manualmente si emisor o beneficiario coincide con la lista de OFAC y si rechazar el cheque y notificar que esto está repetido acá, tenemos estos 2 filtros.
+
+318
+00:52:21,600 --> 00:52:42,960
+Hay una pregunta, no debería ser porque hay cierto rango, si no mal recuerdo para 100% en este momento sí estamos bloqueando, pero hay un porcentaje, un rango, no recuerdo ahorita cuál, pero por decir algún número de 80 a 100% de similitud con OFAC, lo dejamos pasar.
+
+319
+00:52:43,360 --> 00:52:51,760
+Pero alguien lo tiene que revisar del lado de cumplimiento, cuando hay una un rechazo directo.
+
+320
+00:52:52,280 --> 00:52:54,080
+Entonces lo dejamos a cumplimiento.
+
+321
+00:52:59,120 --> 00:53:03,280
+Pero igual sería el mismo Hold, no yo.
+
+322
+00:53:03,520 --> 00:53:07,920
+Si ya hay un Hold en cumplimiento porque voy a tener en el departamento de chicos el mismo.
+
+323
+00:53:09,680 --> 00:53:12,240
+Ah, okay, aquí tienen solamente los departamentos de cheques.
+
+324
+00:53:12,240 --> 00:53:16,840
+Ya, okay, estos departamento de cheques acá es este compliance.
+
+325
+00:53:17,160 --> 00:53:17,560
+Okay.
+
+326
+00:53:17,760 --> 00:53:32,600
+Este luego está el Dinay list no validar manualmente si el nombre del emisor o beneficiario coincide con la con la Dinay list rechazar el cheque sí sí rechazar el cheque no liberar.
+
+327
+00:53:33,200 --> 00:53:37,920
+Validation Hold las verificaciones siempre se deben realizar con números de teléfonos validados online.
+
+328
+00:53:38,280 --> 00:53:44,040
+La verificación con las compañías se podrían realizar por vía telefónica y en algunos casos por la página web de la misma.
+
+329
+00:53:44,640 --> 00:53:54,880
+Recibir y revisar los cheques marcados como riesgosos por el sistema, por el agente, análisis de patrones de fraude, validación manual del cheque con el emisor on y el banco.
+
+330
+00:53:58,400 --> 00:54:07,640
+Este el cheque fue liberado, te manda para acá, no otra vez declinado o aceptado, vale.
+
+331
+00:54:09,520 --> 00:54:29,560
+esas bandejas digo la bandeja de cumpleaños sería cronos pero creo que la otra es una bandeja todo el área de cheques también es cronos todo De hecho hay una pregunta todas esas bandejas ya existen así que sería utilizar las bandejas existentes y a lo mejor adecuarlas no
+
+332
+00:54:31,520 --> 00:54:45,280
+O sea, no podríamos tener como una diferenciación dentro de Cronos de mira, a ver, te voy, te voy a compartir pantalla, estaba pensando el fin de semana, dame 2.
+
+333
+00:54:48,240 --> 00:54:59,960
+Yo pensaría que hice crear una nueva bandeja, verdad que sí, y podríamos de que crear otra de caching, pero vamos a crear entonces.
+
+334
+00:55:00,080 --> 00:55:28,400
+que conté seis bandejas vamos a crear seis bandejas diferentes duplicadas para el proceso habría que definirlo bien Porque de todas maneras necesitas estos seis estatus y seis estatus acepte no pero para tenerlo separado no O sea a mí no me gustaría ver cheque este que casi mezclado con processing y que el back office tenga que filtrar para poder que diferenciar
+
+335
+00:55:28,880 --> 00:55:42,080
+Ok, pero a lo mejor entonces pregunta que a lo mejor pregunta, la pantalla en esencia debe ser lo mismo, solamente tendrías, por así decirlo, un filtro pre aplicado.
+
+336
+00:55:43,600 --> 00:55:45,760
+¿A qué te refieres con la pantalla va?
+
+337
+00:55:45,760 --> 00:55:48,880
+O sea, yo no, perdón, no, no te entendí.
+
+338
+00:55:48,880 --> 00:55:53,800
+Lo que yo me refiero es aquí dice de que processing agregar otro de caching.
+
+339
+00:55:54,000 --> 00:55:58,680
+Y tener el mismo y tener el este dropdown con los este filtros.
+
+340
+00:55:58,680 --> 00:56:05,400
+Mira, si entras es lo que quiere decir, Julio, si entras creo que es en Rose for checks.
+
+341
+00:56:06,960 --> 00:56:14,160
+¿En qué esto selecciona cualquiera, mande, selecciona cualquiera, por favor?
+
+342
+00:56:15,600 --> 00:56:20,080
+Ahí lo que dice Julio es tendría que comportarse exactamente igual.
+
+343
+00:56:20,080 --> 00:56:26,400
+No tienes tus cheques de lado en la pantalla de afuera y tienes tus botones abajo de aceptar y rechazar.
+
+344
+00:56:26,800 --> 00:56:28,960
+Así es como piensan que funcionaría.
+
+345
+00:56:30,560 --> 00:56:37,120
+Release, sí sería sí, Pepe, tú algún día este te dijiste que era como duplicar, ¿no?
+
+346
+00:56:38,400 --> 00:56:41,440
+Sí, básicamente es hacer un con ciertas reglas.
+
+347
+00:56:42,000 --> 00:56:45,920
+Distintas para cada caso para cada filtro, pero sí, básicamente es un copy pace.
+
+348
+00:56:47,440 --> 00:56:48,720
+Eso responde la duda Julio.
+
+349
+00:56:49,920 --> 00:56:52,240
+Sí, responde lo gracias.
+
+350
+00:56:57,040 --> 00:56:57,520
+Vale.
+
+351
+00:57:00,480 --> 00:57:01,600
+Me regreso.
+
+352
+00:57:08,880 --> 00:57:15,240
+Luego, este esperen, bueno, sí, vamos a hablar de cobranza y aquí me regreso otra vez al departamento de cheques.
+
+353
+00:57:15,240 --> 00:57:23,800
+o K este, entonces aquí estamos hablando de cobranza.
+
+354
+00:57:23,800 --> 00:57:33,360
+Vale, inicio, se registran cheques rebotados en el sistema, se genera reporte de cheques rebotados.
+
+355
+00:57:34,080 --> 00:57:40,800
+El rejection name, el check number, el issuer name, issuer bank amount status, asignación de caso.
+
+356
+00:57:41,920 --> 00:57:46,240
+El supervisor asigna caso a asesores según disponibilidad.
+
+357
+00:57:46,960 --> 00:57:48,800
+Vean, esto es esto es súper importante.
+
+358
+00:57:48,800 --> 00:57:53,360
+Se Se priorizan los casos según la antigüedad del cheque y monto total por emisor.
+
+359
+00:57:53,680 --> 00:57:58,160
+Se realizan las llamadas correspondientes diarias para llegar a metas KPIs asignados.
+
+360
+00:57:58,560 --> 00:58:02,960
+Se registra de manera correcta el follow up de todos los pasos que realice en el día.
+
+361
+00:58:03,440 --> 00:58:32,160
+En sistema y se actualiza estatus, entonces aquí a diferentes casos o K el contacto inicial con el emisor puedes tener de respuesta y hay caso 123456 o K son 6 casos, caso uno también que dice casa, caso uno sí responden, pero no está el encargado.
+
+362
+00:58:32,800 --> 00:58:36,000
+Caso 2 sí responden y dan promesa de pago.
+
+363
+00:58:36,000 --> 00:58:38,080
+Caso 3 sí responden y pagan la deuda.
+
+364
+00:58:38,400 --> 00:58:42,400
+Caso cuatro sí responden y rehúsan a pagar la deuda.
+
+365
+00:58:42,400 --> 00:58:46,960
+Caso 5 sí responden, pero no reconocen la deuda o el cheque rebotado.
+
+366
+00:58:47,440 --> 00:58:52,000
+Todos estos anteriores, bueno, vamos a ir así en orden.
+
+367
+00:58:52,000 --> 00:58:59,040
+Este sí sí responden y dan promesa de pago, se van hasta acá abajo, no en donde pues van a van a.
+
+368
+00:58:59,840 --> 00:59:03,040
+Este se van a recepción y confirmación de pago.
+
+369
+00:59:03,040 --> 00:59:08,200
+El pago se refleja correctamente, sí, marcar los cheques como paid.
+
+370
+00:59:08,200 --> 00:59:16,160
+O sea, todos estos cheques que se concilian dentro de cobranza tiene que tener opción de ya marcarlos como paid.
+
+371
+00:59:16,400 --> 00:59:24,360
+o K, el pago se refleja correctamente, no solicitar comprobante, proporciona comprobante, sí.
+
+372
+00:59:25,520 --> 00:59:51,960
+Este escala aquí es no más bien no pago parcial, si aquí es no, si no, si no está el pago, entonces se escala con conciliación o k luego el caso cuatro, si responden y revisan a y se rehúsan a pagar la deuda, entonces se van a negociación y plan de pago.
+
+373
+00:59:52,520 --> 00:59:55,440
+Se hace un una evaluación inicial de pago.
+
+374
+00:59:55,440 --> 01:00:00,280
+El emisor beneficiario está dispuesto a pagar la deuda.
+
+375
+01:00:00,280 --> 01:00:05,760
+Si es un sí, entonces el supervisor presenta opciones según el caso.
+
+376
+01:00:06,160 --> 01:00:17,760
+Si es un no se escala, no escalamiento de caso, notificar al área de cumplimiento, clasificar como.
+
+377
+01:00:19,120 --> 01:00:26,400
+Unrecoverable, no, el emisor puede enviar a the night list si el monto es menor, el emisor se puede.
+
+378
+01:00:31,280 --> 01:00:34,240
+Sí, luego luego corrijo porque se me está trabando.
+
+379
+01:00:35,360 --> 01:00:53,320
+Sí, el monto es menor a 200 usd, este voy para acá arriba, híjole, está difícil leerlo todo en la sola pantalla.
+
+380
+01:00:54,320 --> 01:00:58,880
+Este caso 5 sí responden, pero no reconocen.
+
+381
+01:00:59,400 --> 01:01:23,200
+La deuda o el cheque rebotado se manda prevención de fraude este directamente y aquí hay una letra a que esta letra a los conecta con el área de departamento de cheques, en donde se recibe el caso porque tienen que este hacer cheque con el departamento de cheques, no, entonces se recibe ese caso.
+
+382
+01:01:24,080 --> 01:01:34,880
+El emisor comenta que el cheque sí fue cobrado en su cuenta bancaria, o sea, esta es una opción no que lleva a realizar investigación con el banco.
+
+383
+01:01:34,880 --> 01:01:42,000
+Hubo un error bancario, si notificara cobranza, no enviar evidencia de resolución bancaria a cobranza.
+
+384
+01:01:42,440 --> 01:01:48,560
+Otra opción es que el emisor comenta que no es su cheque, entonces se realiza investigación y el mismo cuenta.
+
+385
+01:01:48,640 --> 01:01:52,720
+no Luego hay otra opción que es el cheque fraudulento o robado.
+
+386
+01:01:53,120 --> 01:01:59,040
+Reportar a las autoridades locales, agregar al deny list al emisor o beneficiario.
+
+387
+01:01:59,040 --> 01:02:06,600
+El monto acumulado es mayor a 10 k, no dar seguimiento con las autoridades locales y cobranza.
+
+388
+01:02:06,600 --> 01:02:22,000
+Si es si enviar el caso a los abogados o k otra opción, cheque con posibilidad de investigación bancaria, corrección bancaria por duplicado, meter un FS failing to security IT claim.
+
+389
+01:02:23,120 --> 01:02:34,240
+Monitorear el resultado de investigación, se recuperaron los fondos, no notificar a cobranza, sí, cambiar estatus del cheque a paid.
+
+390
+01:02:36,080 --> 01:02:36,440
+este.
+
+391
+01:02:36,440 --> 01:02:46,080
+La otra opción es el cheque con posibilidad de investigación este bancaria, meter un late claim, monitorear el resultado de investigación el mismo cuento.
+
+392
+01:02:46,240 --> 01:02:49,840
+vale este.
+
+393
+01:02:50,960 --> 01:02:53,800
+Y bueno, este es el área de cobranza o K.
+
+394
+01:02:53,800 --> 01:02:58,240
+¿Hay alguna duda en el área de cobranza?
+
+395
+01:03:01,760 --> 01:03:06,000
+Creo que aquí algo es importante mencionar.
+
+396
+01:03:06,240 --> 01:03:19,480
+Imagínense que todo su, o sea, que todo el reporte de pues cobranza son un friego de cheques, no esperemos que no sean muchos, pero este pues imaginemos que del mismo emisor este.
+
+397
+01:03:20,960 --> 01:03:26,000
+O sea, hay muchos cheques para por cobrar, ¿no?
+
+398
+01:03:26,880 --> 01:03:48,440
+Y el emisor lo va pagando poco a poco, o sea, no paga el monto total, o sea, puede ser que debe este 5 cheques y tiene una deuda en cada cheque de 100 USD, no, entonces es un total de 500 USD, entonces el emisor dice, bueno, pues te te pago este ahorita 200 USD, entonces que puedan marcar.
+
+399
+01:03:48,760 --> 01:04:02,200
+22 cheques o el monto más aproximado a lo que a lo que deben como paid y que puedan este, pues dejar notas en cada uno de los cheques o en cada emisor.
+
+400
+01:04:06,400 --> 01:04:18,600
+Ahí veo un reporte de cheques rebotados, pero todo esto se lo imaginan como una pantalla dentro de Cronos.
+
+401
+01:04:18,720 --> 01:04:34,440
+Es que digo, sería lo súper ideal, obviamente, porque ellos tienen este agent agent monitor, bulk check, este reject, no donde ellos pueden entrar y ver toda toda su lista.
+
+402
+01:04:34,440 --> 01:04:39,240
+Pues sí, sería ideal que lo pudieran ver todo en Chronos.
+
+403
+01:04:39,240 --> 01:04:47,520
+A mí me dice Quique, bueno, que Quique fue el que nos comentó que muchas cosas lo hacen por con Excel, no, y tienen sus Exceles que van este está actualizando.
+
+404
+01:04:47,960 --> 01:04:52,600
+Pero si podríamos automatizar algo dentro de cronos te digo como carta Santa Claus Pues sería buenísimo.
+
+405
+01:04:54,800 --> 01:04:58,680
+Pero este es un reporte verdad reporte de cheques rebotados.
+
+406
+01:05:08,240 --> 01:05:15,840
+Yo tengo una pregunta que creo que no Hemos llegado a ese punto y ahorita me la intenté responder solo pero no pude
+
+407
+01:05:17,960 --> 01:05:35,280
+cuando pasamos un cheque actualmente con CP ese cheque funge como crédito para la gente le damos crédito por pasar el cheque para un cheque de También tenemos que también se maneja como crédito o hay alguna diferencia en cuestión de balance.
+
+408
+01:05:37,120 --> 01:05:38,880
+Me la puedes repetir por favor.
+
+409
+01:05:39,280 --> 01:05:45,280
+Okay cuando pasamos un cheque a día de hoy
+
+410
+01:05:45,760 --> 01:05:47,040
+Eso es un crédito.
+
+411
+01:05:47,040 --> 01:05:50,040
+Le estamos dando crédito a la gente porque es un medio de pago.
+
+412
+01:05:50,040 --> 01:05:54,560
+Es algo con lo que él nos está pagando y no es sacar al cliente.
+
+413
+01:05:54,880 --> 01:05:59,960
+Ahora con César Checashing ya sacar al cliente.
+
+414
+01:06:00,160 --> 01:06:23,880
+pasar ese cheque sigue siendo un crédito para la gente es que lo lo van haciendo O sea van haciendo esos cambios con el mismo número del de con el mismo dinero de los este money transfers Okay entonces sí debería ser un crédito de la misma manera que lo tenemos porque nos están pagando con ese cheque no nos están pagando con ese cheque si nos están pagando con ese cheque
+
+415
+01:06:24,400 --> 01:06:29,920
+Okay, entonces se manejaría igual con un crédito a lo mejor aquí ayúdame.
+
+416
+01:06:31,600 --> 01:06:32,160
+Estás ahí?
+
+417
+01:06:32,480 --> 01:06:35,400
+Sí sería un crédito al balance Julio.
+
+418
+01:06:35,400 --> 01:06:36,720
+Ah, sí, sí, es crédito.
+
+419
+01:06:37,120 --> 01:06:37,600
+Okay.
+
+420
+01:06:38,240 --> 01:06:41,040
+Sí, sí, sí.
+
+421
+01:06:41,760 --> 01:06:51,040
+Sí, venga, Entonces vamos, digo aquí como ya les mencioné toda la parte de continuación con contabilidad y finanzas.
+
+422
+01:06:51,600 --> 01:07:01,120
+Va a ser una lista de reportes que va que se van a tener que generar, pero el área va a seguir trabajando igual o k, o sea, no hay desarrollo en cronos para ellos.
+
+423
+01:07:01,920 --> 01:07:13,920
+Va entonces el área de conciliación y y contabilidad tienen un inicio en conciliación, envío de reporte autogenerated report CC.
+
+424
+01:07:13,920 --> 01:07:16,400
+Este es un reporte que van a tener que generar.
+
+425
+01:07:17,040 --> 01:07:28,240
+Contraloría, recibe información, realizar conciliación con backline, el reporte está completo y es consistente, sí, es fin, no entrar a la plataforma bancaria y revisar si hay más info que nos pueda dar el banco.
+
+426
+01:07:28,880 --> 01:07:42,320
+Hay discrepancias de la info del sistema, este puse su perdón, aquí hay 2 este diferentes cis, se puede revisar con el equipo de IT.
+
+427
+01:07:42,800 --> 01:07:48,240
+No, porque puede ser que la información del reporte, no sé, está atrasada, esté mal el reporte, etcétera.
+
+428
+01:07:48,720 --> 01:07:52,320
+O eso sí, revisar con cobranza la discrepancia.
+
+429
+01:07:53,120 --> 01:07:59,560
+Vale, generación de reporte de cheques garantizados, rechazados.
+
+430
+01:07:59,560 --> 01:08:03,760
+Este es otro reporte que hay que generar y es cada fin de mes.
+
+431
+01:08:04,320 --> 01:08:12,720
+Generación de reporte de créditos por la recuperación de fondo de los emisores, se envía a contabilidad y a cobranza, reporte de recuperación de cheques garantizados rechazados.
+
+432
+01:08:12,720 --> 01:08:27,200
+Es un reporte nuevo, recibe reporte de cheques rebotados, otro reporte nuevo, se registra en Oracle la cuenta por cobrar con el emisor, recibe reporte de recuperación de cheques garantizados rechazados, que fue el que se generó acá arriba.
+
+433
+01:08:27,920 --> 01:08:45,920
+Aplicar pago en Oracle de la cuenta por cobrar, conciliar con cobranza, generar reporte de CC profit, que es un reporte nuevo, no este importar reporte en Oracle, validar que la información sea correcta y esté asignada a las cuentas contables correctas.
+
+434
+01:08:46,240 --> 01:08:54,000
+Calcular comisiones por agente en reportes, otros 2 reportes nuevos, check pending report, check in transit.
+
+435
+01:08:54,800 --> 01:09:04,160
+Las comisiones son correctas, corre y determina el monto a pagar por agente, no pide aclaración para IT, generación de reportes financieros, enviar a tesorería y finanzas.
+
+436
+01:09:05,359 --> 01:09:24,479
+Y aquí me faltó este lujito cuando se recibe el reporte de cheques rebotados, se registra en Oracle la cuenta por emisor, pero entonces se registra la cuenta correcta, sí, conciliar con cobrar los saldos de emisor, enviar correo electrónico por enviar, enviar correo con saldos.
+
+437
+01:09:24,720 --> 01:09:30,080
+Pendientes a cobranza y se genera el reporte de sí sí, no profit.
+
+438
+01:09:30,800 --> 01:09:31,840
+este.
+
+439
+01:09:32,319 --> 01:09:42,399
+Entonces esto fue de tesorería, perdón, de ay de se fue de conciliación y contabilidad.
+
+440
+01:09:42,399 --> 01:09:54,600
+Y entonces aquí vemos que se envía enviar a tesorería y finanzas la generación de reportes financieros, no, entonces ya nos pasamos a tesorería y finanzas.
+
+441
+01:09:55,120 --> 01:10:13,240
+Y inician en comparar saldo, saldo de banco con cargos pendientes, de determinan saldo neto, determinan el uso de línea de crédito revolvente, limitan el uso de efectivo, análisis de rentabilidad y margen bruto.
+
+442
+01:10:13,240 --> 01:10:21,280
+El margen cumple con los objetivos financieros establecidos, sí, generar reporte de rentabilidad, no tomar acciones correctivas para el área de cheques y prevención de fraudes.
+
+443
+01:10:21,840 --> 01:10:38,800
+Análisis de balance general, ofrecimiento inusual, crecimiento inusual de los cheques por cobrar, sí, tomar acciones correctivas para área de cheques y prevención de fraudes, este análisis de cheques rebotados y su impacto financiero.
+
+444
+01:10:39,040 --> 01:10:48,320
+Se requieren acciones adicionales para recuperar fondos, sí, coordinar con cobranza y establecer plan de pagos, no continuar con la evaluación de rentabilidad general.
+
+445
+01:10:48,800 --> 01:10:52,560
+Y ya se van al análisis de flujo de efectivo.
+
+446
+01:10:54,240 --> 01:11:17,600
+Entonces esto está superclaro en en el PRD que les voy a compartir que si quieren lo los podemos checar el día de mañana conmigo podemos ya revisar el el los PRDs no que estas 2 áreas conciliación y tesorería son puros reportes vale PRD le llamas Natalia.
+
+447
+01:11:18,360 --> 01:11:23,080
+¿Sí, con p qué significa product requirement document?
+
+448
+01:11:24,800 --> 01:11:26,000
+¿Cómo le llaman ustedes?
+
+449
+01:11:27,200 --> 01:11:29,800
+BRD, business en vez de product.
+
+450
+01:11:30,400 --> 01:11:39,880
+Okay, le puedo cambiar a VOID, vale, sin ningún entonces ahí ya los traes enumerados, digamos los requerimientos y al otro.
+
+451
+01:11:40,480 --> 01:11:57,640
+Sí, este luego nos faltó el monitoreo de VSA, este que hay un inicio hace generación de alerta en cronos acumulación de montos basados en by.
+
+452
+01:11:58,160 --> 01:12:25,480
+Beneficiary by address, by zip code, by phone, descarga de reportes de alerta, sistema de némesis, committee, es que aquí es que así se llama, no el sistema de némesis, hay un committee accumulated dashboard genera alertas basadas en las reglas operacionales BSAEML para para diversas este actividades, que esto esto es justamente la llamada de mañana que voy a tener con Jorge Laura.
+
+453
+01:12:25,600 --> 01:12:39,360
+No, porque van a haber reportes que se van a generar, que no los hemos definido, que Laura nos dijo que conforme a la marcha lo íbamos hasta generar y pues a descifrar y ver cuáles son los que necesitamos, pero pues definitivamente tenemos que tener una idea, ¿no?
+
+454
+01:12:39,360 --> 01:12:52,800
+Porque creo que Némesis es muy complicado o ustedes esto no lo saben.
+
+455
+01:12:54,400 --> 01:13:05,720
+O sea, lo que nos comentó Laura es que todas las, o sea, todas las generaciones de alertas que han querido, que han querido hacer en este en Némesis, que no han sido posibles porque no pueden tocar Némesis.
+
+456
+01:13:06,720 --> 01:13:11,600
+Ok, pero este es un reporte nuevo, no necesariamente tendría que vivir en Némesis.
+
+457
+01:13:13,640 --> 01:13:28,040
+Pues es que es lo que no sé, vamos a seguir utilizando este némesis para check cashing o no, o si los repartos están fuera o si las alertas van a estar de generadas en Cronos o en este némesis.
+
+458
+01:13:28,040 --> 01:13:32,000
+Ese es una gran duda de si vamos a poder trabajar sobre némesis.
+
+459
+01:13:34,240 --> 01:13:43,040
+Creo que ahorita digamos que sería lo de menos, sería conocer el requerimiento y ya vemos dónde dónde lo ponemos.
+
+460
+01:13:43,440 --> 01:13:55,280
+O K, entonces analizar patrones de actividad sospechosa con respecto a la alerta en cuestión, este la actividad es considerada sospechosa o inusual.
+
+461
+01:13:55,280 --> 01:14:04,560
+Sí, agregar cliente o beneficiario a the night list, submit SAT este SAT report and BS Ae Philips System.
+
+462
+01:14:05,200 --> 01:14:09,760
+¿Se identificó alguna agencia como necesitada de capacitación?
+
+463
+01:14:09,760 --> 01:14:12,000
+Sí, pedir a agent este oversight.
+
+464
+01:14:12,800 --> 01:14:18,000
+El training, seguimiento de casos está abiertos cada este por 90 días.
+
+465
+01:14:18,400 --> 01:14:23,840
+Se requiere información adicional por parte del cliente beneficiario para descartar cualquier riesgo futuras transacciones.
+
+466
+01:14:24,080 --> 01:14:28,000
+No se identificó alguna agencia como necesitada de capacitación.
+
+467
+01:14:28,000 --> 01:14:35,600
+Entonces se regresa al pedir este agent oversight, no sin no luego.
+
+468
+01:14:36,080 --> 01:14:50,880
+Este agregar cliente beneficiario a The Night List, submit este CTR Report en BS A E Filling System, que puede ser si no identificas que la agencia pues necesita training, te lo llevas al fin.
+
+469
+01:14:51,120 --> 01:15:04,720
+o K, entonces esa ese es el área de monitoreo de BS A o K, entonces todos estos documentos que yo ya le envié a Jorge se los voy a compartir a ustedes también.
+
+470
+01:15:04,720 --> 01:15:04,880
+o K.
+
+471
+01:15:05,640 --> 01:15:34,560
+Para que si si quieren podemos ir revisando los este PRDS el día de mañana en la mañana, si quieren los VI, por favor, sí, los VIDS, sí, por favor, yo creo que nos vamos agendando una para mañana porque si no va, efectivamente no vamos a terminar, si no vamos a terminar y lo que puedo hacer también es que mañana podemos revisar todo el proceso.
+
+472
+01:15:35,200 --> 01:15:45,280
+Todo el proceso que es este, no lo podemos leer juntos, podemos parar en donde quieran.
+
+473
+01:15:45,840 --> 01:15:51,560
+Esto sí nos va a llevar mucho tiempo para que aquí podamos ver.
+
+474
+01:15:51,560 --> 01:15:57,360
+O sea, creo que esto es lo primerito que hay que leer y luego ya pasarnos a los este BRDs.
+
+475
+01:15:58,800 --> 01:16:04,920
+Ya le cambié, o k está bien, sí.
+
+476
+01:16:06,960 --> 01:16:15,360
+Creo que el que nos tiene que abrir agenda eres tú, Julio, porque te veo lleno mañana.
+
+477
+01:16:16,080 --> 01:16:34,240
+De hecho, mañana estoy un poco complicado si quieren ponerle la hora en la que más puedan todos los demás y me intento escapar un poco de algunos llamadas que tengo ya en caso de que no, pues igual aquí anda porque también podría ser.
+
+478
+01:16:36,720 --> 01:16:59,040
+el miércoles de cuatro a seis miércoles pudiera de tres a cinco yo podría tienes lunch a las tres no me vale No no no es x Okay de tres a cinco Sí me parece bien
+
+479
+01:17:00,040 --> 01:17:28,560
+Okay pues lo pongo para el miércoles y si nos vas mandando los vrds este los voy revisando para complementar las notas que tomé Okay Y si te quieres juntar Aparte tú tú y yo si tienes algunas dudas o que podamos como adelantar dime vale Ah muy bien me parece cuando tú quieras estoy disponible excelente acabo de mandarles la convocatoria
+
+480
+01:17:29,640 --> 01:17:31,120
+Excelente, gracias a todos.
+
+481
+01:17:31,520 --> 01:17:35,040
+Pepe, no sé si quieras este este agregar algo.
+
+482
+01:17:36,320 --> 01:17:40,800
+No, pues ya que veamos los DRDs, pues yo creo que van a salir más dudas, ¿no?
+
+483
+01:17:43,280 --> 01:17:46,960
+¿Vas a que quieres este entrar a esa llamada o estás full?
+
+484
+01:17:47,680 --> 01:17:49,840
+Si no, yo la puedo llevar.
+
+485
+01:17:51,280 --> 01:17:53,400
+Pues sí, pues ahí vemos, tú me dices.
+
+486
+01:17:54,160 --> 01:17:56,480
+Okay, bueno, entonces.
+
+487
+01:17:57,200 --> 01:18:09,440
+hablamos ahorita en un ratito para ver lo del deck va para ya terminarlo Órale Órale ya estamos gracias a todos equipo Muchas gracias gracias gracias
+
